@@ -1,0 +1,10 @@
+.slide-right h1, .slide-right div {
+  animation: 3s slide-right 0s forwards;
+    transform:translateX(100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
