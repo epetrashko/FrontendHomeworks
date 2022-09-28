@@ -1,9 +1,9 @@
-const url = "http://numbersapi.com/random/math";
+const url : string = "http://numbersapi.com/random/math";
 
 let mathText: HTMLElement | null = null;
 
-async function request_random_math_fact() {
-    const response = await fetch(url);
+let request_random_math_fact = async function(): Promise<string> {
+    const response : Response = await fetch(url);
     return ((response.ok) ? await response.text() : "Something went wrong");
 }
 
@@ -15,7 +15,7 @@ async function handleClick(){
 
 onload = () => {
     mathText = document.getElementById("random_math_fact");
-    const button = document.getElementById("generate_math_fact_btn");
+    const button: HTMLElement | null = document.getElementById("generate_math_fact_btn");
     if (button)
         button.addEventListener('click', handleClick);
 };
