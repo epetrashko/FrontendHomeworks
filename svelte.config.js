@@ -15,7 +15,7 @@ const config = {
             		assets: "docs"
         	}),
 		paths: {
-      			base: dev ? '' : '/epetrashko.github.io',
+      			base: dev ? '' : '/FrontendHomeworks',
     		},
 		target: "#svelte"
 	}
