@@ -12,7 +12,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-      		base: dev ? '' : '/FrontendHomeworks',
+      		base: dev ? '' : 'epetrashko.github.io',
     	},
 	}
 };
