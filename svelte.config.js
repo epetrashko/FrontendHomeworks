@@ -15,9 +15,8 @@ const config = {
             		assets: "docs"
         	}),
 		paths: {
-      			base: dev ? '' : '/FrontendHomeworks',
+      			base: dev ? '' : '',
     		},
-		target: "#svelte"
 	}
 };
 
