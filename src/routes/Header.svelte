@@ -4,9 +4,9 @@
 </script>
 
 <header class="header_links">
-	<a href="/" class="header_link" class:active={$page.url.pathname === `${base}/`}>Home</a>
-	<a href="/mathFact" class="header_link" class:active={$page.url.pathname === `${base}/mathFact`}>Generate Math Fact</a>
-	<a href="/randomGrade" class="header_link" class:active={$page.url.pathname === `${base}/randomGrade`}>Generate Random Grade</a>
+	<a href=`${base}/` class="header_link" class:active={$page.url.pathname === `${base}/`}>Home</a>
+	<a href=`${base}/mathFact` class="header_link" class:active={$page.url.pathname === `${base}/mathFact`}>Generate Math Fact</a>
+	<a href=`${base}/randomGrade` class="header_link" class:active={$page.url.pathname === `${base}/randomGrade`}>Generate Random Grade</a>
 </header>
 
 <style>
