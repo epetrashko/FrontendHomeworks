@@ -10,10 +10,7 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter(),
-		paths: {
-      		base: dev ? '' : '/FrontendHomeworks',
-    	},
+		adapter: adapter()
 	}
 };
 
