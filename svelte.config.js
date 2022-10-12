@@ -10,10 +10,14 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+            		pages: "docs",
+            		assets: "docs"
+        	}),
 		paths: {
-      		base: dev ? '' : '/FrontendHomeworks',
-    	},
+      			base: dev ? '' : '/FrontendHomeworks',
+    		},
+		target: "#svelte"
 	}
 };
 
