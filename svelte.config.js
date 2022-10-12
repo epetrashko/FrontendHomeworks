@@ -12,7 +12,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-      		base: dev ? '' : 'epetrashko.github.io',
+      		base: dev ? '' : '/epetrashko.github.io',
     	},
 	}
 };
