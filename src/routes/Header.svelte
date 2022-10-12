@@ -1,8 +1,11 @@
+<script>
+	import { page } from '$app/stores';
+</script>
+
 <header class="header_links">
-    <a href="/" class="header_link">Home</a>
-    <a href="https://vk.com/epetrashko" class="header_link">VK</a>
-    <a href="https://www.instagram.com/epetrashko" class="header_link">Instagram</a>
-    <a href="https://github.com/epetrashko" class="header_link">GitHub</a>
+	<a href="/" class="header_link" class:active={$page.url.pathname === '/'}>Home</a>
+	<a href="/mathFact" class="header_link" class:active={$page.url.pathname === '/mathFact'}>Generate Math Fact</a>
+	<a href="/randomGrade" class="header_link" class:active={$page.url.pathname === '/randomGrade'}>Generate Random Grade</a>
 </header>
 
 <style>

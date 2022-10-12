@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Math Fact Generator</title>
+</svelte:head>
+
 <script lang="ts">
     const url: string = "http://numbersapi.com/random/math";
     let mathFact = " ";
@@ -11,7 +15,7 @@
     }
 </script>
 
-<div class="row">
+<div class="text-column">
     <button on:click={handleClick} class="math_button">Generate random math fact</button>
     <h3 id="random_math_fact">{mathFact}</h3>
 </div>

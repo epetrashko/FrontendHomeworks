@@ -1,7 +1,7 @@
 <script lang="ts">
-    import vk from '../assets/vk.png'
-    import instagram from '../assets/instagram.png'
-    import github from '../assets/github.png'
+    import vk from '../lib/images/vk.png'
+    import instagram from '../lib/images/instagram.png'
+    import github from '../lib/images/github.png'
 </script>
 
 

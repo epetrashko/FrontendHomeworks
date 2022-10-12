@@ -1,8 +1,7 @@
 <script lang="ts">
-    import profileImg from './assets/personal_photo.jpg'
-    import Header from "./lib/Header.svelte";
-    import SlidingInfo from "./lib/SlidingInfo.svelte";
-    import RandomMathFactGenerator from "./lib/RandomMathFactGenerator.svelte";
+    import profileImg from '../lib/images/personal_photo.jpg'
+    import Header from "./Header.svelte";
+    import SlidingInfo from "./SlidingInfo.svelte";
 </script>
 
 <Header></Header>
@@ -13,7 +12,6 @@
         <div class="div_about">
             <div class="column_flex center_vertically_div_about">
                 <SlidingInfo></SlidingInfo>
-                <RandomMathFactGenerator></RandomMathFactGenerator>
             </div>
         </div>
     </div>
